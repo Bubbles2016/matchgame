@@ -4,9 +4,10 @@ html {
   background-color: rgb(255, 242, 242);
   margin-top: 5.25rem;
 }
-/*.container {
+
+body {
   background-color: rgb(255, 242, 242);
-}*/
+}
 
 #instructions h1 {
   font-weight: bold;
@@ -28,16 +29,45 @@ html {
   background-color: rgb(32, 64, 86);
   border: 4px solid #ffffff;
   border-radius: 8px;
-}
-
-.card:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
 }
-
 .card p {
   font-weight: 900;
   font-size: 7rem;
   color: rgb(255, 255, 255);
-  text-align: center;
-  vertical-align: middle;
+}
+
+#card1:active, #card3:active {
+  background-color: hsl(25, 85%, 65%);
+}
+
+#card2:active, #card4:active {
+  background-color: hsl(55, 85%, 65%);
+}
+
+#card5:active, #card7:active {
+  background-color: hsl(90, 85%, 65%);
+}
+
+#card6:active, #card8:active {
+  background-color: hsl(160, 85%, 65%);
+}
+
+#card9:active, #card11:active {
+  background-color: hsl(220, 85%, 65%);
+}
+
+#card10:active, #card12:active {
+  background-color: hsl(265, 85%, 65%);
+}
+
+#card13:active, #card15:active {
+  background-color: hsl(310, 85%, 65%);
+}
+
+#card14:active, #card16:active {
+  background-color: hsl(360, 85%, 65%);
 }
